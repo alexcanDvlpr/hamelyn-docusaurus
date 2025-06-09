@@ -8,11 +8,12 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://alexcanDvlpr.github.io',
-  baseUrl: '/',
+  baseUrl: '/hamelyn-docusaurus/',
 
   organizationName: 'alexcanDvlpr', // Tu usuario de GitHub
-  projectName: 'docusaurus-demo', // Nombre del repositorio
+  projectName: 'hamelyn-docusaurus', // Nombre del repositorio
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,19 +23,7 @@ const config: Config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            to: '/intro',
-            from: ['/'],
-          },
-        ],
-      },
-    ],
-  ],
+  plugins: [],
 
 
   presets: [
@@ -67,7 +56,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/Marcostp98/docusaurus-demo',
+          href: 'https://github.com/alexcanDvlpr/hamelyn-docusaurus',
           label: 'GitHub',
           position: 'right',
         },
@@ -81,7 +70,7 @@ const config: Config = {
           items: [
             {
               label: 'Introducción',
-              to: '/docs/intro',
+              to: '/',
             },
           ],
         },
@@ -90,7 +79,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Marcostp98/docusaurus-demo',
+              href: 'https://github.com/alexcanDvlpr/hamelyn-docusaurus',
             },
           ],
         },

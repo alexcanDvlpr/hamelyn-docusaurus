@@ -15,7 +15,7 @@ Y una vez cierras el lote y lo envías, Hamelyn lo recibe, revisa y abona el din
 
 ## Flujo de Cliente
 
-El cliente completa su carrito en la web de [http://hamelyn.com](Hamelyn), con un precio calculado por el sistema, y durante el proceso de checkout, el sistema crea una `Order` en estado `CHECKOUT` para ir rellenando los valores de dicha order, dirección, productos, cuando quiere el usuario que sea recogido, usuario etc.
+El cliente completa su carrito en la web de [http://hamelyn.com](http://hamelyn.com), con un precio calculado por el sistema, y durante el proceso de checkout, el sistema crea una `Order` en estado `CHECKOUT` para ir rellenando los valores de dicha order, dirección, productos, cuando quiere el usuario que sea recogido, usuario etc.
 
 Al finalizar el checkout, la order pasa a estar en estado `IN_PICKING`, en este momento, desde almacén, se solicita a la mensajera que vayan a por los lotes que tocan diariamente.
 
