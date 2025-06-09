@@ -7,10 +7,10 @@ const config: Config = {
   tagline: 'La documentación de Hamelyn',
   favicon: 'img/favicon.ico',
 
-  url: 'https://marcostp98.github.io',
+  url: 'https://alexcanDvlpr.github.io',
   baseUrl: '/',
 
-  organizationName: 'Marcostp98', // Tu usuario de GitHub
+  organizationName: 'alexcanDvlpr', // Tu usuario de GitHub
   projectName: 'docusaurus-demo', // Nombre del repositorio
 
   onBrokenLinks: 'throw',
