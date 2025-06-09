@@ -1,0 +1,8 @@
+{
+  "label": "Entidades y Core",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Estas son las entidades y fragmentos del core del sistema. Recibirás una vista global y rápida de todas las partes que componen el sistema de Hamelyn, tanto el flujo de Supply como el de venta en los Marketplaces."
+  }
+}
