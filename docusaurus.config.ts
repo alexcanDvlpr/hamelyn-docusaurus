@@ -12,6 +12,7 @@ const config: Config = {
 
   organizationName: 'alexcanDvlpr', // Tu usuario de GitHub
   projectName: 'docusaurus-demo', // Nombre del repositorio
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
